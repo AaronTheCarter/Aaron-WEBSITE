@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron's Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        nav {
+            background: #020617;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #0ea5e9, #2563eb);
+        }
+
+        section {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #0ea5e9;
+            border: none;
+            padding: 10px 15px;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0284c7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #020617;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+    </nav>
+
+    <header>
+        <h1>🚀 Aaron's Website</h1>
+        <p>Game Dev | Mods | Cool Stuff</p>
+    </header>
+
+    <section>
+        <div class="card">
+            <h2>🎮 My Game</h2>
+            <p>This is my Sonic-style game made in Godot.</p>
+            <button onclick="playGame()">Play Game</button>
+        </div>
+
+        <div class="card">
+            <h2>📦 My Mods</h2>
+            <p>Download my latest mods here.</p>
+            <button onclick="downloadMod()">Download</button>
+        </div>
+
+        <div class="card">
+            <h2>👤 About Me</h2>
+            <p>I'm a beginner developer learning how to make games and websites.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Aaron</p>
+    </footer>
+
+    <script>
+        function playGame() {
+            alert("Add your game link here!");
+        }
+
+        function downloadMod() {
+            alert("Add your download link here!");
+        }
+    </script>
+
+</body>
+</html>
