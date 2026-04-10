@@ -26,6 +26,7 @@
     h1 {
       margin: 10px 0 0;
       font-size: 2.5rem;
+      font-weight: normal;
     }
 
     .logo {
@@ -33,11 +34,29 @@
       height: auto;
     }
 
+    .yt-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    .yt-logo {
+      width: 140px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .yt-logo:hover {
+      transform: scale(1.1);
+    }
+
     main {
       padding: 40px 20px;
     }
   </style>
 </head>
+
 <body>
   <header>
     <img src="mainlogo.png" alt="Main Logo" class="logo" />
@@ -46,6 +65,12 @@
 
   <main>
     <p>my name is Aaron Carter, i make games, animations and most importantly content!.</p>
+
+    <div class="yt-container">
+      <a href="https://www.youtube.com/@aaronthecarterreal" target="_blank">
+        <img src="ytlogo.png" alt="YouTube" class="yt-logo" />
+      </a>
+    </div>
   </main>
 </body>
 </html>
